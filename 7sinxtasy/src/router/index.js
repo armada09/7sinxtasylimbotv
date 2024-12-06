@@ -9,12 +9,17 @@ import Story from '../components/Story.vue'
 
 // create the url routes
 const routes = [
-    {path: '/7sinxtasylimbotv/', name:Character, component:Character},
-    {path: '/7sinxtasylimbotv/event', name:Event, component:Event},
-    {path: '/7sinxtasylimbotv/story', name:Kizuna, component:Kizuna},
-    {path: '/7sinxtasylimbotv/kizuna', name:Story, component:Story}
+    {path: '/', name:Character, component:Character},
+    {path: '/event', name:Event, component:Event},
+    {path: '/story', name:Kizuna, component:Kizuna},
+    {path: '/kizuna', name:Story, component:Story}
 ]
 
-const router = createRouter({history: createWebHistory(), routes, })
+//
+const router = createRouter({
+    history: createWebHistory('/7sinxtasylimbotv/'), 
+    routes, 
+})
+
 
 export default router
