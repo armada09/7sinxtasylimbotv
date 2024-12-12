@@ -2,7 +2,7 @@
     <div class=container>
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <router-link class="nav-link" to="/7sinxtasylimbotv/">Character</router-link>
@@ -27,4 +27,11 @@
 </script>
 
 <style scope>
+
+.navbar {
+  width: 100%;  /* Makes images responsive */
+  height: auto;
+  object-fit: cover;  /* Ensures images maintain aspect ratio */
+}
+
 </style>
