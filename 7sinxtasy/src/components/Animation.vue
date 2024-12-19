@@ -55,6 +55,14 @@ onMounted( () => {
     directionalLight.position.set(10, 10, 10).normalize();
     scene.add(directionalLight);
 
+    // load texture
+    const textureLoader = new THREE.TextureLoader()
+
+    // provide a background image for the l2d animation
+    textureLoader.load('./assets/gltf/avg_bg_lobby_xmas.png', (texture) => {
+        scene.background = texture
+    })
+
     const loader = new GLTFLoader();
 
     loader.load( 
@@ -66,7 +74,7 @@ onMounted( () => {
             gltf.scene.rotation.y = Math.PI;
             
             // Set the camera position
-            camera.position.z = 5;
+            camera.position.z = 2;
 
             // Create the AnimationMixer for the loaded model
             mixer = new THREE.AnimationMixer(gltf.scene);
@@ -78,9 +86,6 @@ onMounted( () => {
             //dat gui
             //const gui = new GUI()
             gui = new GUI()
-            const cubeFolder = gui.addFolder('Z AXIS ROTATION')
-            cubeFolder.add(gltf.scene.rotation, 'z', 0, Math.PI * 2)
-            cubeFolder.open()
             const cameraFolder = gui.addFolder('Camera')
             cameraFolder.add(camera.position, 'z', 0, 10)
             cameraFolder.open()

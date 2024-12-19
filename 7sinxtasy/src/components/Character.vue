@@ -33,7 +33,7 @@ const clickMe = (item) => {
 <style scoped>
 .imgGrid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);  /* 4 equal-width columns */
+    grid-template-columns: repeat(10, 1fr);  /* 4 equal-width columns */
     grid-template-rows: repeat(4, 1fr);     /* 4 equal-height rows */
     gap: 10px;  /* Optional: spacing between grid items */
 }

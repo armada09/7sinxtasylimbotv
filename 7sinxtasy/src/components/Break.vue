@@ -42,7 +42,7 @@ let showl2d = ref(false)
 // function to change the url based on the button clicked.
 const changeImage = (key) => {
     // check if the button clicked belongs to the ld family
-    if (/^ld\d+/.test(key)) {
+    if (/^l2d.*$/.test(key)) {
         // check to see if the ld has an actual value or is empty string
         if (props.item[key] == "") {
             showl2d.value = false

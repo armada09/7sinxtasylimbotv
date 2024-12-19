@@ -4,31 +4,39 @@ const db = {
         "break3":"./assets/breaks/SatanB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych003b_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch003b_01.png",
-        "ld1":"",
-        "ld2":"wch001_01"
+        "l2dx":"xch003b",
+        "l2dx-fast":"xch003b-fast",
+        "l2dy":"ych003b",
+        "l2dz":"zch003b"
     },
     "belialB":{ "break1":"./assets/breaks/BelialB_X_2k.png",
         "break2":"./assets/breaks/BelialB_Y.png",
         "break3":"./assets/breaks/BelialB_Z.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych008b_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch008b_01.png",
-        "ld1": "",
-        "ld2":"gltfweddingbelial" 
+        "l2dx":"xch008b",
+        "l2dy":"ych008b",
+        "l2dz":"zch008b" 
     },
     "belialA":{ "break1":"./assets/breaks/BelialA_X_2k.png",
         "break2":"./assets/breaks/BelialA_Y_2k.png",
         "break3":"./assets/breaks/BelialA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych008a_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch008a_01.png",
-        "ld1":"",
-        "ld2":"gltfbikinibelial2" 
+        "l2dx":"xch008a",
+        "l2dxfast":"xch008a-fast",
+        "l2dy":"ych008a",
+        "l2dz":"zch008a" 
     },
     "asmodeusB":{ "break1":"./assets/breaks/AsmodeusB_X_2k.png",
         "break2":"./assets/breaks/AsmodeusB_Y_2k.png",
         "break3":"./assets/breaks/AsmodeusB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych007b_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch007b_01.png",
-        "ld1":"" 
+        "l2dx":"xch007b",
+        "l2dxfast":"xch007bfast",
+        "l2dy":"ych007b",
+        "l2dz":"zch007b"
     },
     "satanA":{ "break1":"./assets/breaks/SatanA_X.png",
         "break2":"./assets/breaks/SatanA_Y.png",
@@ -37,7 +45,8 @@ const db = {
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych003a_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch003a_01.png",
         "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch003a_01.png",
-        "ld1":"" 
+        "l2dz":"zch003a",
+        "l2dw":"wch003a" 
     },
     "mammonA":{ "break1":"./assets/breaks/MammonA_X.png",
         "break2":"./assets/breaks/MammonA_Y_2k.png",
@@ -46,7 +55,8 @@ const db = {
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych005a_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch005a_01.png",
         "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch005a_01.png",
-        "ld1":"" 
+        "l2dy":"ych005a",
+        "l2dw":"wch005a" 
     },
     "belial":{ "break1":"./assets/breaks/Belial_X.png",
         "break2":"./assets/breaks/Belial_Y.png",
@@ -55,7 +65,8 @@ const db = {
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych008_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch008_01.png",
         "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch008_01.png",
-        "ld1":"" 
+        "l2dz":"zch008",
+        "l2dw":"wch008" 
     },
     "sarielA":{ "break1":"./assets/breaks/SarielA_X.png",
         "break2":"./assets/breaks/SarielA_Y_2k.png",
@@ -63,157 +74,142 @@ const db = {
         "break4":"./assets/breaks/SarielA_W.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych012a_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch012a_01.png",
-        "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch012a_01.png",
-        "ld1":"" 
+        "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch012a_01.png"
     },
     "sarielB":{ "break1":"./assets/breaks/SarielB_X_2k.png",
         "break2":"./assets/breaks/SarielB_Y_2k.png",
         "break3":"./assets/breaks/SarielB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych012b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch012b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch012b_01.png"
     },
     "asmodeusA":{ "break1":"./assets/breaks/AsmodeusA_X.png",
         "break2":"./assets/breaks/AsmodeusA_Y.png",
         "break3":"./assets/breaks/AsmodeusA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych007a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch007a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch007a_01.png"
     },
     "asmodeusC":{ "break1":"./assets/breaks/AsmodeusC_X_2k.png",
         "break2":"./assets/breaks/AsmodeusC_Y.png",
         "break3":"./assets/breaks/AsmodeusC_Z.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych007c_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch007c_01.png",
-        "ld1":"" 
+        "l2dx":"ych007c" 
     },
     "asmodeus":{ "break1":"./assets/breaks/Asmodeus_X.png",
         "break2":"./assets/breaks/Asmodeus_Y.png",
         "break3":"./assets/breaks/Asmodeus_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych007_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch007_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch007_01.png"
     },
     "astarothA":{ "break1":"./assets/breaks/AstarothA_X.png",
         "break2":"./assets/breaks/AstarothA_Y_2k.png",
         "break3":"./assets/breaks/AstarothA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych009a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch009a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch009a_01.png"
     },
     "astarothB":{ "break1":"./assets/breaks/AstarothB_X_2k.png",
         "break2":"./assets/breaks/AstarothB_Y_2k.png",
         "break3":"./assets/breaks/AstarothB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych009b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch009b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch009b_01.png"
     },
     "astaroth":{ "break1":"./assets/breaks/Astaroth_X.png",
         "break2":"./assets/breaks/Astaroth_Y.png",
         "break3":"./assets/breaks/Astaroth_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych009_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch009_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch009_01.png"
     },
     "beelzebubA":{ "break1":"./assets/breaks/BeelzebubA_X.png",
         "break2":"./assets/breaks/BeelzebubA_Y.png",
         "break3":"./assets/breaks/BeelzebubA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych006a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006a_01.png"
     },
     "beelzebubB":{ "break1":"./assets/breaks/BeelzebubB_X.png",
         "break2":"./assets/breaks/BeelzebubB_Y_2k.png",
         "break3":"./assets/breaks/BeelzebubB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych006b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006b_01.png"
     },
     "beelzebubC":{ "break1":"./assets/breaks/BeelzebubC_X_2k.png",
         "break2":"./assets/breaks/BeelzebubC_Y_2k.png",
         "break3":"./assets/breaks/BeelzebubC_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych006c_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006c_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006c_01.png"
     },
     "beelzebub":{ "break1":"./assets/breaks/Beelzebub_X.png",
         "break2":"./assets/breaks/Beelzebub_Y.png",
         "break3":"./assets/breaks/Beelzebub_Z_2k.png",
 
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych006_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006_01.png",
-        "ld1":"",
-        "ld2":""
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch006_01.png"
     },
     "BelphegorA":{ "break1":"./assets/breaks/BelphegorA_X.png",
         "break2":"./assets/breaks/BelphegorA_Y.png",
         "break3":"./assets/breaks/BelphegorA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych004a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004a_01.png"
     },
     "BelphegorB":{ "break1":"./assets/breaks/BelphegorB_X.png",
         "break2":"./assets/breaks/BelphegorB_Y_2k.png",
         "break3":"./assets/breaks/BelphegorB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych004b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004b_01.png"
     },
     "BelphegorC":{ "break1":"./assets/breaks/BelphegorC_X_2k.png",
         "break2":"./assets/breaks/BelphegorC_Y_2k.png",
         "break3":"./assets/breaks/BelphegorC_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych004c_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004c_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004c_01.png"
     },
     "Belphegor":{ "break1":"./assets/breaks/Belphegor_X.png",
         "break2":"./assets/breaks/Belphegor_Y.png",
         "break3":"./assets/breaks/Belphegor_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych004_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch004_01.png"
     },
     "LeviathanA":{ "break1":"./assets/breaks/LeviathanA_X.png",
         "break2":"./assets/breaks/LeviathanA_Y.png",
         "break3":"./assets/breaks/LeviathanA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych002a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch002a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch002a_01.png"
     },
     "LeviathanB":{ "break1":"./assets/breaks/LeviathanB_X.png",
         "break2":"./assets/breaks/LeviathanB_Y_2k.png",
         "break3":"./assets/breaks/LeviathanB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych002b_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch002b_01.png",
-        "ld1":"" 
+        "l2dy":"ych002b" 
     },
     "LeviathanC":{ "break1":"./assets/breaks/LeviathanC_X_2k.png",
         "break2":"./assets/breaks/LeviathanC_Y.png",
         "break3":"./assets/breaks/LeviathanC_Z.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych002c_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch002c_01.png",
-        "ld1":"" 
+        "l2dx":"xch002c",
+        "l2dy":"ych002c"
     },
     "LeviathanD":{ "break1":"./assets/breaks/LeviathanD_X_2k.png",
         "break2":"./assets/breaks/LeviathanD_Y.png",
         "break3":"./assets/breaks/LeviathanD_Z.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych002d_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch002d_01.png",
-        "ld1":"" 
+        "l2dx":"xch002d",
+        "l2dxfast":"xch002dfast",
+        "l2dy":"ych002d" 
     },
     "Leviathan":{ "break1":"./assets/breaks/Leviathan_X.png",
         "break2":"./assets/breaks/Leviathan_Y.png",
         "break3":"./assets/breaks/Leviathan_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych002_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch002_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch002_01.png"
     },
     "LuciferA":{ "break1":"./assets/breaks/LuciferA_X.png",
         "break2":"./assets/breaks/LuciferA_Y.png",
         "break3":"./assets/breaks/LuciferA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych001a_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch001a_01.png",
-        "ld1":"" 
+        "l2dz":"zch001a"
     },
     "LuciferB":{ "break1":"./assets/breaks/LuciferB_X.png",
         "break2":"./assets/breaks/LuciferB_Y.png",
@@ -221,21 +217,26 @@ const db = {
         "break4":"./assets/breaks/LuciferB_W.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych001b_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch001b_01.png",
-        "ld1":"" 
+        "l2dz":"zch001b" 
     },
     "LuciferC":{ "break1":"./assets/breaks/LuciferC_X_2k.png",
         "break2":"./assets/breaks/LuciferC_Y_2k.png",
         "break3":"./assets/breaks/LuciferC_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych001c_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch001c_01.png",
-        "ld1":"" 
+        "l2dx":"xch001cfast",
+        "l2dy":"ych001c",
+        "l2dz":"zch001c" 
     },
     "LuciferD":{ "break1":"./assets/breaks/LuciferD_X_2k.png",
         "break2":"./assets/breaks/LuciferD_Y.png",
         "break3":"./assets/breaks/LuciferD_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych001d_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch001d_01.png",
-        "ld1":"" 
+        "l2dx":"xch001d",
+        "l2dxfast":"xch001dfast",
+        "l2dy":"ych001d",
+        "l2dz":"zch001d" 
     },
     "Lucifer":{ "break1":"./assets/breaks/Lucifer_X.png",
         "break2":"./assets/breaks/Lucifer_Y.png",
@@ -244,84 +245,77 @@ const db = {
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych001_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch001_01.png",
         "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch001_01.png",
-        "ld1":"" 
+        "l2dw":"wch001" 
     },
     "MammonB":{ "break1":"./assets/breaks/MammonB_X_2k.png",
         "break2":"./assets/breaks/MammonB_Y_2k.png",
         "break3":"./assets/breaks/MammonB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych005b_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch005b_01.png",
-        "ld1":"" 
+        "l2dx": "xch005b",
+        "l2dy":"ych005b" 
     },
     "MammonC":{ "break1":"./assets/breaks/MammonC_X_2k.png",
         "break2":"./assets/breaks/MammonC_Y.png",
         "break3":"./assets/breaks/MammonC_Z.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych005c_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch005c_01.png",
-        "ld1":"" 
+        "l2dx":"ych005c" 
     },
     "Mammon":{ "break1":"./assets/breaks/Mammon_X.png",
         "break2":"./assets/breaks/Mammon_Y.png",
         "break3":"./assets/breaks/Mammon_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych005_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch005_01.png",
-        "ld1":"" 
+        "l2dy":"zch005" 
     },
     "Satan":{ "break1":"./assets/breaks/Satan_X.png",
         "break2":"./assets/breaks/Satan_Y.png",
         "break3":"./assets/breaks/Satan_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych003_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch003_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch003_01.png"
     },
     "GabrielA":{ "break1":"./assets/breaks/GabrielA_X.png",
         "break2":"./assets/breaks/GabrielA_Y.png",
         "break3":"./assets/breaks/GabrielA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych016a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch016a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch016a_01.png"
     },
     "GabrielB":{ "break1":"./assets/breaks/GabrielB_X_2k.png",
         "break2":"./assets/breaks/GabrielB_Y_2k.png",
         "break3":"./assets/breaks/GabrielB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych016b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch016b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch016b_01.png"
     },
     "Gabriel":{ "break1":"./assets/breaks/Gabriel_X.png",
         "break2":"./assets/breaks/Gabriel_Y.png",
         "break3":"./assets/breaks/Gabriel_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych016_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch016_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch016_01.png"
     },
     "MetatronA":{ "break1":"./assets/breaks/MetatronA_X.png",
         "break2":"./assets/breaks/MetatronA_Y_2k.png",
         "break3":"./assets/breaks/MetatronA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych014a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch014a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch014a_01.png"
     },
     "Metatron":{ "break1":"./assets/breaks/Metatron_X.png",
         "break2":"./assets/breaks/Metatron_Y.png",
         "break3":"./assets/breaks/Metatron_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych014_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch014_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch014_01.png"
     },
     "MichaelA":{ "break1":"./assets/breaks/MichaelA_X.png",
         "break2":"./assets/breaks/MichaelA_Y_2k.png",
         "break3":"./assets/breaks/MichaelA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych010a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch010a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch010a_01.png"
     },
     "MichaelB":{ "break1":"./assets/breaks/MichaelB_X_2k.png",
         "break2":"./assets/breaks/MichaelB_Y_2k.png",
         "break3":"./assets/breaks/MichaelB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych010b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch010b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch010b_01.png"
     },
     "Michael":{ "break1":"./assets/breaks/Michael_X.png",
         "break2":"./assets/breaks/Michael_Y.png",
@@ -329,88 +323,75 @@ const db = {
         "break4":"./assets/breaks/Michael_W_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych010_01.png",
         "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch010_01.png",
-        "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch010_01.png",
-        "ld1":"" 
+        "sm3":"./assets/mirrors/Sprite/atlas_soulshardportrait_wch010_01.png"
     },
     "RaphaelA":{ "break1":"./assets/breaks/RaphaelA_X.png",
         "break2":"./assets/breaks/RaphaelA_Y.png",
         "break3":"./assets/breaks/RaphaelA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych015a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015a_01.png"
     },
     "RaphaelB":{ "break1":"./assets/breaks/RaphaelB_X.png",
         "break2":"./assets/breaks/RaphaelB_Y.png",
         "break3":"./assets/breaks/RaphaelB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych015b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015b_01.png"
     },
     "RaphaelC":{ "break1":"./assets/breaks/RaphaelC_X_2k.png",
         "break2":"./assets/breaks/RaphaelC_Y.png",
         "break3":"./assets/breaks/RaphaelC_Z.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych015c_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015c_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015c_01.png"
     },
     "Raphael":{ "break1":"./assets/breaks/Raphael_X.png",
         "break2":"./assets/breaks/Raphael_Y.png",
         "break3":"./assets/breaks/Raphael_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych015_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch015_01.png"
     },
     "SandalphonA":{ "break1":"./assets/breaks/SandalphonA_X.png",
         "break2":"./assets/breaks/SandalphonA_Y_2k.png",
         "break3":"./assets/breaks/SandalphonA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych013a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch013a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch013a_01.png"
     },
     "SandalphonB":{ "break1":"./assets/breaks/SandalphonB_X_2k.png",
         "break2":"./assets/breaks/SandalphonB_Y_2k.png",
         "break3":"./assets/breaks/SandalphonB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych013b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch013b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch013b_01.png"
     },
     "Sandalphon":{ "break1":"./assets/breaks/Sandalphon_X.png",
         "break2":"./assets/breaks/Sandalphon_Y.png",
         "break3":"./assets/breaks/Sandalphon_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych013_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch013_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch013_01.png"
     },
     "Sariel":{ "break1":"./assets/breaks/Sariel_X.png",
         "break2":"./assets/breaks/Sariel_Y.png",
         "break3":"./assets/breaks/Sariel_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych012_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch012_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch012_01.png"
     },
     "UrielA":{ "break1":"./assets/breaks/UrielA_X.png",
         "break2":"./assets/breaks/UrielA_Y_2k.png",
         "break3":"./assets/breaks/UrielA_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych011a_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch011a_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch011a_01.png"
     },
     "UrielB":{ "break1":"./assets/breaks/UrielB_X_2k.png",
         "break2":"./assets/breaks/UrielB_Y_2k.png",
         "break3":"./assets/breaks/UrielB_Z_2k.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych011b_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch011b_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch011b_01.png"
     },
     "Uriel":{ "break1":"./assets/breaks/Uriel_X.png",
         "break2":"./assets/breaks/Uriel_Y.png",
         "break3":"./assets/breaks/Uriel_Z.png",
         "sm1":"./assets/mirrors/Sprite/atlas_soulshardportrait_ych011_01.png",
-        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch011_01.png",
-        "ld1":"" 
+        "sm2":"./assets/mirrors/Sprite/atlas_soulshardportrait_zch011_01.png"
     }
 }
-
 
 // allow the db variable be accessible
 export default db
