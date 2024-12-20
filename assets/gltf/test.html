@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Character Face</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 20px auto;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="characterCanvas" width="2000" height="1500"></canvas>
+    <div class="buttons">
+        <button onclick="changeFace(0)">Face 1</button>
+        <button onclick="changeFace(1)">Face 2</button>
+        <button onclick="changeFace(2)">Face 3</button>
+        <button onclick="changeFace(3)">Face 4</button>
+        <button onclick="changeFace(4)">Face 5</button>
+        <button onclick="changeFace(5)">Face 6</button>
+        <button onclick="changeFace(6)">Face 7</button>
+        <button onclick="changeFace(7)">Face 8</button>
+    </div>
+
+    <script>
+        const canvas = document.getElementById("characterCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // Load the sprite image
+        const spriteImage = new Image();
+        spriteImage.src = 'sprite_faces.png'; // Your sprite sheet image path
+
+        const faceWidth = 100; // width of each face
+        const faceHeight = 100; // height of each face
+        const characterWidth = 12000; // character body width
+        const characterHeight = 2500; // character body height
+
+        let currentFaceIndex = 0;
+
+        spriteImage.onload = function() {
+            drawCharacter();
+        };
+
+        // Function to draw the character
+        function drawCharacter() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas
+
+            // Draw character body (assumed to be in the top part of the image)
+            ctx.drawImage(spriteImage, 0, 0, characterWidth, characterHeight, 0, 0, characterWidth, characterHeight);
+
+            // Draw the selected face (assumed faces are at the bottom)
+            const faceX = currentFaceIndex * faceWidth;
+            const faceY = spriteImage.height - faceHeight; // Assuming faces are at the bottom of the sprite
+
+            // Draw face at specified location
+            ctx.drawImage(spriteImage, faceX, faceY, faceWidth, faceHeight, 400, 170, faceWidth, faceHeight);
+        }
+
+        // Change face based on button clicked
+        function changeFace(index) {
+            currentFaceIndex = index;
+            drawCharacter();
+        }
+    </script>
+</body>
+</html>
