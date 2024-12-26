@@ -12,8 +12,8 @@ const routes = [
     {path: '/', redirect: '/7sinxtasylimbotv/' },
     {path: '/7sinxtasylimbotv/', name:Character, component:Character},
     {path: '/7sinxtasylimbotv/event', name:Event, component:Event},
-    {path: '/7sinxtasylimbotv/story', name:Kizuna, component:Kizuna},
-    {path: '/7sinxtasylimbotv/kizuna', name:Story, component:Story}
+    {path: '/7sinxtasylimbotv/story', name:Story, component:Story},
+    {path: '/7sinxtasylimbotv/kizuna', name:Kizuna, component:Kizuna}
 ]
 
 //
