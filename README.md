@@ -7,6 +7,9 @@ I am using a db.js file to use as my "nonrelational database" where I map each a
 and from there the software and pages abstract and determine which images and asset to display. 
 This is an attempt to not hardcode anything and have it as flexible and robust as possible. 
 
+## Website URL 
+https://armada09.github.io/7sinxtasylimbotv/7sinxtasylimbotv/
+
 
 ## Legend
 - ☑ l2d exists and working on website
